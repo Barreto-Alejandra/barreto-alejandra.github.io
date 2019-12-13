@@ -1,0 +1,115 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+  background-color: #088a83;
+  color: white;
+  width: 100%;
+  padding-top: 0px;
+  margin-top:0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ol{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+figure{
+  margin: 0px;
+}
+.header a{
+  margin-right: 25px;
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 20px;
+}
+.logo{
+  margin: 0px;
+  padding: 0px;
+}
+.imagen{
+  width: 180px;
+  display: flex;
+  align-items: center;
+}
+.hero {
+  display: flex;  
+  padding: 0px;
+  flex-wrap: wrap;
+}
+.hero_img {
+  margin-top: 40px;
+  height: 500px;
+  width: 450px;
+  padding: 0px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+h1{
+  font-family: 'Forum', cursive;
+  margin-top: 90px;
+  margin-left: 150px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  line-height: 1.7;
+  letter-spacing: 2px;
+}
+h1 strong {
+  color: #088a83;
+}
+p {  
+  font-family: 'Forum', cursive;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-top: 0px;
+  margin-left: 150px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;  
+  align-items: center;
+  background-color: #088a83;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+}
+p {
+  color: white;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.footer-link{
+  text-decoration: none;
+  width: 70px;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+.footer-link.github {
+  background-image: url('../proyecto_alecita/imagenes/icons8-github-50.png');
+  /* background-repeat: no-repeat; */
+}
+.footer-link.twitter {
+  background-image: url('../proyecto_alecita/imagenes/icons8-twitter-50.png');
+  /* background-repeat: no-repeat; */
+}
+.footer-link.instagram {
+  background-image: url('../proyecto_alecita/imagenes/icons8-instagram-50.png');
+}
+
+@media screen and (max-width:1024px)

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="icon" href="imagenes/favicon.png" type="image/png" sizes="16x16">
+  <title>Contacto</title>
+</head>
+<style>
+  body {
+    background-color: #088a83;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .header {
+  background-color: #088a83;
+  margin: 0px;
+  height: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+  .imagen {
+  margin-left: 30px;
+  width: 200px;
+  }
+  .home a {
+    color: white;
+    font-size: 18px ;
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 0px;
+  }
+  .contact {
+    background: linear-gradient( #9dd8c8, #088a83);
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 140px 300px;
+    border-radius: 40px;
+  }
+  h1 {
+    font-size: 45px;
+    margin-bottom: 0px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .input {
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-left: 76px;
+  margin-bottom: 20px;
+  width: 250px;
+  padding: 5px;
+  /* Para sacar el marco azul  del cuadro */
+  outline: none;
+  height: 35px;
+  }
+  .textarea {
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;  
+  width: 400px;
+  margin-bottom: 6px;
+  padding: 10px;
+  /* Para sacar el marco azul  del cuadro */
+  outline: none;
+  height: 180px; 
+  }
+  ::placeholder {
+    font-family: 'Roboto', sans-serif;
+  }
+  .button {
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    height: 35px;
+    width: 70px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 175px;
+    margin-bottom: 40px;
+  }
+</style>
+<body>
+  <header class="header">
+      <img src="imagenes/11.png" class="imagen" alt="logo Alejandra Barreto">
+      <nav class="home">
+        <a href="prueba2.html">Página principal</a>
+      </nav>
+  </header>
+<section class="contact">
+<h1>Contáctame</h1>
+<h2>Si deseas realizar alguna consulta no dudes en ponerte en contacto conmigo <br> completando el siguiente formulario...</h2>
+<!-- <h3 a hrfe >Si prefiere contactarme directamente, envíe su correo electrónico a: <a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox">  alejandra.barreto.ab@gmail.com</a></h3> -->
+<form class="contact__form">
+  <div>
+    <input class="input" type="text" placeholder="Tu email"> 
+  </div>
+  <div>
+  <textarea class="textarea" rows="10" placeholder="Tu mensaje"></textarea>
+</div>
+<button class="button">Enviar</button>
+</form>
+</section>
+</body>
+</html>
