@@ -24,9 +24,11 @@ ol{
   display: flex;
   flex-wrap: wrap;
 }
+
 figure{
   margin: 0px;
 }
+
 .header a{
   margin-right: 25px;
   color: white;
